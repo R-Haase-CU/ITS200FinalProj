@@ -1,0 +1,120 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body, footer {
+	margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: rgb(60,60,60);
+  color: white;
+}
+
+div.header {
+  position: sticky;
+  top:0;
+  background-color: #0088CF;
+	color: black;
+	font-size: 3em;
+  text-align: center;
+  padding: 5px;
+  z-index:5;
+}
+
+a:link {text-decoration: none;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    color: black;
+    background-color: #0088CF;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    font-weight: bold;
+  }
+
+  li a {
+    display: block;
+    height:60px;
+    width: 100%;
+    color: black;
+    text-align: center;
+    border-top: 1px  solid rgb(3, 82, 124);
+    padding: 15% 0 0 0;
+    font-size: 1.3vw;
+    background-color: #0088CF;
+  }
+
+  li a:hover {
+    background-color: rgb(71, 71, 71);
+    color: white;
+  }
+
+form {
+    display: block;
+    width: 100%;
+    color: black;
+    text-align: center;
+    border-top: 1px  solid rgb(3, 82, 124);
+    padding: 0 ;
+    font-size: 1.3vw;
+    background-color: #0088CF;
+  }
+
+  li:last-child {
+    border-bottom: 1px  solid rgb(20, 20, 20);
+  }
+
+
+/*I just realized that I probably should have set up these webpages in a Multicolumn layout for scaling... It also would have been much easier and quicker to set up compared to what I did*/
+
+div.content {
+    margin:auto;
+    position: relative;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    padding:10px;
+    left: 5%;
+  }
+
+iframe {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50%;
+    width: 50%;
+    border: none;
+    padding: 10px;
+}
+
+div.table {
+  position: relative;
+  overflow: hidden;
+  left: 3%;
+  font-size: 2em;
+  width:40%;
+  padding:20px;
+}
+
+
+div.body-text{
+  position: relative;
+  float:right;
+  padding: 10px;
+  width:45%;
+  font-size: 2em;
+  z-index:3;
+}
+
+table{
+  border-collapse: collapse;
+}
+
+table,tr,td{
+  border: 3px solid rgb(0, 0, 0);
+  text-align: center;
+}
